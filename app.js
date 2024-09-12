@@ -123,15 +123,39 @@
 
 // 11.	Write a function that accepts any number of arguments & find largest of the number
 ;
-function findLargest(...args) {
-    if (args.length === 0) {
-        return "No numbers provided";
-    }
-    return Math.max(...args);
-}
+// function findLargest(...args) {
+//     if (args.length === 0) {
+//         return "No numbers provided";
+//     }
+//     return Math.max(...args);
+// }
 
-console.log(findLargest(5, 10, 3, 8));  // Output: 10
-console.log(findLargest(-5, -10, -3, -8));  // Output: -3
-console.log(findLargest());  // Output: No numbers provided
+// console.log(findLargest(5, 10, 3, 8));  // Output: 10
+// console.log(findLargest(-5, -10, -3, -8));  // Output: -3
+// console.log(findLargest());  // Output: No numbers provided
 
+// 12.	Write a function that calculates the area of a rectangle.
+// A = width * height
+
+// function rectangel(width,height){
+//  let area=width*height
+//  console.log(Shpae);
+ 
+// }
+// rectangel(400,300);
   
+
+// 13.	Write a function that receives an array & returns the sorted array.
+
+// function sortArry(arry){
+//        let result= arry.sort();
+//        console.log(result)
+// }
+//  sortArry([45,86,96,75]);
+//   Q14
+// function sum(arry){
+//     let result= arry.reduce((accumulator, currentValue) => accumulator+currentValue );
+//     console.log(result)
+
+// }
+// sum([45,85,99,45]);// answer is 274 
